@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name" translatable="false">Codery - Online Code</string>
+    <string name="html">&lt;!DOCTYPE html&gt;&#10;&lt;html&gt;&#10;&lt;body&gt;&#10;&#10;&lt;h1&gt;Codery Editor&lt;/h1&gt;&#10;&#10;&lt;p&gt;Bu benim ilk Yazım.&lt;/p&gt;&#10;&#10;&lt;/body&gt;&#10;&lt;/html&gt;&#10;</string>
+    <string name="css">p {&#10;color: #FFFFFF;&#10;}</string>
+    <string name="js">alert(&quot;Hoşgeldin&quot;);</string>
+</resources>

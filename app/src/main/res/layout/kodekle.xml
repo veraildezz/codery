@@ -1,0 +1,142 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear2"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/linear3"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="horizontal">
+			<TextView
+				android:id="@+id/textview1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Kod Ekle"
+				android:textSize="26sp"
+				android:textColor="#FAFAFA" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/linear4"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:orientation="horizontal" />
+		<LinearLayout
+			android:id="@+id/linear5"
+			android:layout_width="match_parent"
+			android:layout_height="500dp"
+			android:padding="8dp"
+			android:background="#263238"
+			android:orientation="vertical"
+			app:cardCornerRadius="60dp">
+			<LinearLayout
+				android:id="@+id/linear6"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal">
+				<com.google.android.material.textfield.TextInputLayout
+					android:id="@+id/textinputlayout1"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+					<EditText
+						android:id="@+id/edittext1"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:background="@android:color/transparent"
+						android:textSize="15sp"
+						android:textColor="#FAFAFA"
+						android:hint="Başlık"
+						android:textColorHint="#FAFAFA" />
+				</com.google.android.material.textfield.TextInputLayout>
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear7"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="horizontal" />
+			<LinearLayout
+				android:id="@+id/linear8"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal">
+				<com.google.android.material.textfield.TextInputLayout
+					android:id="@+id/textinputlayout2"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+					<EditText
+						android:id="@+id/edittext2"
+						android:layout_width="match_parent"
+						android:layout_height="200dp"
+						android:padding="8dp"
+						android:background="@android:color/transparent"
+						android:textSize="15sp"
+						android:textColor="#FAFAFA"
+						android:hint="Kod İçeriği"
+						android:textColorHint="#FAFAFA" />
+				</com.google.android.material.textfield.TextInputLayout>
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear9"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="horizontal" />
+			<LinearLayout
+				android:id="@+id/linear10"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="horizontal">
+				<TextView
+					android:id="@+id/textview2"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Not: Bu kod tüm üyelere açık olarak gösterilir lütfen saçma şeyler yazmayınız teşekürler."
+					android:textSize="15sp"
+					android:textStyle="italic"
+					android:textColor="#FAFAFA" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear11"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="horizontal" />
+			<LinearLayout
+				android:id="@+id/linear12"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:padding="5dp"
+				android:gravity="center_horizontal|center_vertical"
+				android:orientation="horizontal">
+				<Button
+					android:id="@+id/button1"
+					android:layout_width="200dp"
+					android:layout_height="match_parent"
+					android:padding="8dp"
+					android:background="#FAFAFA"
+					android:text="Yayınla"
+					android:textSize="15sp"
+					android:textStyle="bold"
+					android:textColor="#212121" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
